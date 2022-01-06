@@ -434,7 +434,7 @@ footer {
   width: 1118px;
   align-content: center;
   margin-top: 72px;
-  margin-bottom: 742px;
+  margin-bottom: 742px; //TODO
   height: 101px;
   align-items: center;
 }
