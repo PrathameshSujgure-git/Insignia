@@ -65,46 +65,48 @@
         <div class="landing-part-3-box">
           <h1>Features</h1>
           <div class="scroll-items">
-            <div class="card first">
-              <div class="classimg">
-                <img class="img" src="assets/cilpboard.png" />
+            <div class="card-container">
+              <div class="card first">
+                <div class="classimg">
+                  <img class="img" src="assets/cilpboard.png" />
+                </div>
+                <div class="feature-card-text">
+                  <h2>Search Data</h2>
+                  <p>
+                    Don’t worry if your data is very large, Insignia provides a
+                    search engine, which is useful for making it easier to find
+                    data effectively saving time.
+                  </p>
+                </div>
+                <div class="learn-more">Learn More</div>
               </div>
-              <div class="feature-card-text">
-                <h2>Search Data</h2>
-                <p>
-                  Don’t worry if your data is very large, Insignia provides a
-                  search engine, which is useful for making it easier to find
-                  data effectively saving time.
-                </p>
+              <div class="card">
+                <div class="classimg">
+                  <img class="img" src="assets/printer.png" />
+                </div>
+                <div class="feature-card-text">
+                  <h2>Print Out</h2>
+                  <p>
+                    Print out service gives you convenience if someday you need
+                    print data, just edit it all and just print it.
+                  </p>
+                </div>
+                <div class="learn-more">Learn More</div>
               </div>
-              <div class="learn-more">Learn More</div>
-            </div>
-            <div class="card">
-              <div class="classimg">
-                <img class="img" src="assets/printer.png" />
+              <div class="card">
+                <div class="classimg">
+                  <img class="img" src="assets/shield-check.png" />
+                </div>
+                <div class="feature-card-text">
+                  <h2>Security Code</h2>
+                  <p>
+                    Data Security is one of our best facilities. Allows for your
+                    files to be safer. The file can be secured with a code or
+                    password that you created, so only you can open the file.
+                  </p>
+                </div>
+                <div class="learn-more">Learn More</div>
               </div>
-              <div class="feature-card-text">
-                <h2>Print Out</h2>
-                <p>
-                  Print out service gives you convenience if someday you need
-                  print data, just edit it all and just print it.
-                </p>
-              </div>
-              <div class="learn-more">Learn More</div>
-            </div>
-            <div class="card">
-              <div class="classimg">
-                <img class="img" src="assets/shield-check.png" />
-              </div>
-              <div class="feature-card-text">
-                <h2>Security Code</h2>
-                <p>
-                  Data Security is one of our best facilities. Allows for your
-                  files to be safer. The file can be secured with a code or
-                  password that you created, so only you can open the file.
-                </p>
-              </div>
-              <div class="learn-more">Learn More</div>
             </div>
           </div>
           <div class="bottom-section">
@@ -113,8 +115,11 @@
               <div class="indicator-2"></div>
             </div>
             <div class="arrows">
-              <img src="assets/left-arrow.png" alt="left-arrow" />
-              <img src="assets/right-arrow.png" alt="right-arrow" />
+              <button id="btn-scroll-left" onclick="scrollHorizontally(1)">
+                <img src="assets/left-arrow.png" alt="left-arrow" /></button
+              ><button id="btn-scroll-right" onclick="scrollHorizontally(-1)">
+                <img src="assets/right-arrow.png" alt="right-arrow" />
+              </button>
             </div>
           </div>
         </div>
@@ -141,37 +146,39 @@
         <div class="landing-part-5-box">
           <h1>Testimonials</h1>
           <div class="testimonial-scroll-items">
-            <div class="testimonial-card first">
-              <div class="content">
-                <div class="testimonialimg">
-                  <img src="assets/testimonial-img-1.png" />
-                </div>
-                <div class="testimonial-card-text">
-                  <h2>John Fang</h2>
-                  <h3>Web Designer</h3>
-                  <p>
-                    Suspendisse ultrices at diam lectus nullam.<br />
-                    Nisl, sagittis viverra enim erat tortor<br />
-                    ultricies massa turpis. Arcu pulvinar aenean<br />
-                    nam laoreet nulla.
-                  </p>
+            <div class="testimonial-card-container">
+              <div class="testimonial-card first">
+                <div class="content">
+                  <div class="testimonialimg">
+                    <img src="assets/testimonial-img-1.png" />
+                  </div>
+                  <div class="testimonial-card-text">
+                    <h2>John Fang</h2>
+                    <h3>Web Designer</h3>
+                    <p>
+                      Suspendisse ultrices at diam lectus nullam.<br />
+                      Nisl, sagittis viverra enim erat tortor<br />
+                      ultricies massa turpis. Arcu pulvinar aenean<br />
+                      nam laoreet nulla.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="testimonial-card first">
-              <div class="content">
-                <div class="testimonialimg">
-                  <img src="assets/testimonial-img-2.png" />
-                </div>
-                <div class="testimonial-card-text">
-                  <h2>Jenny Doe</h2>
-                  <h3>UX Designer</h3>
-                  <p>
-                    Suspendisse ultrices at diam lectus nullam.<br />
-                    Nisl, sagittis viverra enim erat tortor<br />
-                    ultricies massa turpis. Arcu pulvinar aenean<br />
-                    nam laoreet nulla.
-                  </p>
+              <div class="testimonial-card">
+                <div class="content">
+                  <div class="testimonialimg">
+                    <img src="assets/testimonial-img-2.png" />
+                  </div>
+                  <div class="testimonial-card-text">
+                    <h2>Jenny Doe</h2>
+                    <h3>UX Designer</h3>
+                    <p>
+                      Suspendisse ultrices at diam lectus nullam.<br />
+                      Nisl, sagittis viverra enim erat tortor<br />
+                      ultricies massa turpis. Arcu pulvinar aenean<br />
+                      nam laoreet nulla.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -184,8 +191,17 @@
               <div class="indicator-2"></div>
             </div>
             <div class="testimonial-arrows">
-              <img src="assets/left-arrow.png" alt="left-arrow" />
-              <img src="assets/right-arrow.png" alt="right-arrow" />
+              <button
+                id="testimonial-btn-scroll-left"
+                onclick="tScrollHorizontally(1)"
+              >
+                <img src="assets/left-arrow.png" alt="left-arrow" /></button
+              ><button
+                id="testimonial-btn-scroll-right"
+                onclick="tScrollHorizontally(-1)"
+              >
+                <img src="assets/right-arrow.png" alt="right-arrow" />
+              </button>
             </div>
           </div>
         </div>
@@ -264,5 +280,6 @@
         </div>
       </footer>
     </div>
+    <script src="js/App.js"></script>
   </body>
 </html>
