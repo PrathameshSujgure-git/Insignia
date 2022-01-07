@@ -30,7 +30,7 @@ function scrollHorizontally(val) {
 }
 
 let tCurrentScrollPosition = 0;
-let tScrollAmount = 300;
+let tScrollAmount = 350;
 
 const tCont = document.querySelector(".testimonial-card-container");
 const tHScroll = document.querySelector(".testimonial-scroll-items");
@@ -55,3 +55,20 @@ function tScrollHorizontally(val) {
   }
   tCont.style.left = tCurrentScrollPosition + "px";
 }
+
+dropdown = document.querySelector(".dropdown");
+line1 = document.querySelector(".line1");
+line2 = document.querySelector(".line2");
+line3 = document.querySelector(".line3");
+navBar = document.querySelector(".navbar");
+clicked = document.querySelector(".clicked");
+rightNav = document.querySelector(".right-nav");
+
+dropdown.addEventListener("click", () => {
+  line1.classList.toggle("clicked-1");
+  line2.classList.toggle("clicked-2");
+  line3.classList.toggle("clicked-3");
+
+  navBar.classList.toggle("h-nav-resp");
+  rightNav.classList.toggle("nav-items-resp");
+});
