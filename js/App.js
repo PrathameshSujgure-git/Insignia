@@ -76,6 +76,3 @@ dropdown.addEventListener("click", () => {
 function toTop() {
   document.documentElement.scrollTo(0, 0);
 }
-function toDivById(id) {
-  id.scrollIntoView();
-}

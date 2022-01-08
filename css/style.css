@@ -3,10 +3,10 @@
   padding: 0;
   font-family: now;
   transition: 0.5s all ease-in-out;
-  overflow-x: clip;
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 .full {
   position: relative;
@@ -1021,7 +1021,7 @@ footer {
     margin-bottom: 10px;
   }
   .landing-part1 img {
-    scale: 65%;
+    width: 80%;
   }
   .landing-part-2-box,
   .landing-part-3-box,
