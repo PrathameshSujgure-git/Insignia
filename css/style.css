@@ -1,3 +1,7 @@
+:root {
+  --cyanCust: #30fbef;
+  --blackCust: #282828;
+}
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +18,7 @@ html {
 .navbar {
   height: 100px;
   width: 100%;
-  background-color: #282828;
+  background-color: var(--blackCust);
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -46,7 +50,7 @@ html {
   margin-left: 10px;
   font-size: 26px;
   line-height: 160%;
-  color: #30fbef;
+  color: var(--cyanCust);
   font-family: nowBold;
 }
 
@@ -74,7 +78,7 @@ html {
   scale: 110%;
 }
 .right-nav div a:hover {
-  color: #30fbef;
+  color: var(--cyanCust);
 }
 .right-nav button {
   margin-left: 40px;
@@ -84,9 +88,9 @@ html {
   font-size: 16px;
   line-height: 160%;
   border: 0px;
-  color: #30fbef;
+  color: var(--cyanCust);
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  background: #282828;
+  background: var(--blackCust);
   box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
     -3px -3px 8px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -94,14 +98,14 @@ html {
   transition: 0.2s ease-in-out;
 }
 .right-nav button:hover {
-  color: #282828;
-  background: #30fbef;
+  color: var(--blackCust);
+  background: var(--cyanCust);
   font-family: nowBold;
 }
 .landing {
   min-width: 100%;
   min-height: 100vh;
-  background-color: #282828;
+  background-color: var(--blackCust);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -122,7 +126,7 @@ html {
 .text-part h1 {
   font-size: 80px;
   line-height: 110%;
-  color: #30fbef;
+  color: var(--cyanCust);
   font-family: nowBold;
   margin-bottom: 40px;
   overflow: hidden;
@@ -140,7 +144,7 @@ html {
   line-height: 160%;
   border: 0px;
   color: #ffffff;
-  background: #282828;
+  background: var(--blackCust);
   box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
     -3px -3px 8px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -149,7 +153,7 @@ html {
 }
 .text-part button:hover {
   scale: 105%;
-  color: #30fbef;
+  color: var(--cyanCust);
 }
 .hero-img img {
   height: 485.89px;
@@ -174,7 +178,7 @@ html {
   display: flex;
   align-items: center;
   font-family: nowBold;
-  color: #30fbef;
+  color: var(--cyanCust);
 }
 .text-part-2 p {
   font-size: 18px;
@@ -200,7 +204,7 @@ html {
 .landing-part-3-box h1 {
   margin-left: 93px;
   margin-top: 70px;
-  color: #30fbef;
+  color: var(--cyanCust);
   font-size: 40px;
   line-height: 130%;
   font-family: nowBold;
@@ -263,7 +267,7 @@ html {
 .feature-card-text h2 {
   font-size: 24px;
   line-height: 130%;
-  color: #30fbef;
+  color: var(--cyanCust);
   font-family: nowBold;
 }
 .feature-card-text p {
@@ -274,7 +278,7 @@ html {
 .learn-more {
   font-size: 16px;
   line-height: 160%;
-  color: #30fbef;
+  color: var(--cyanCust);
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -342,7 +346,7 @@ html {
   line-height: 160%;
   border: 0px;
   color: #ffffff;
-  background: #282828;
+  background: var(--blackCust);
   box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
     -3px -3px 8px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -351,12 +355,12 @@ html {
 }
 .text-part-4 button:hover {
   scale: 105%;
-  color: #30fbef;
+  color: var(--cyanCust);
 }
 .text-part-4 h1 {
   font-size: 40px;
   line-height: 130%;
-  color: #30fbef;
+  color: var(--cyanCust);
   font-family: nowBold;
 }
 .text-part-4 p {
@@ -387,7 +391,7 @@ html {
 .landing-part-5-box h1 {
   margin-left: 93px;
   margin-top: 10px;
-  color: #30fbef;
+  color: var(--cyanCust);
   font-size: 40px;
   line-height: 130%;
   font-family: nowBold;
@@ -447,7 +451,7 @@ html {
 .landing-part-5-box h1 {
   font-size: 40px;
   line-height: 130%;
-  color: #30fbef;
+  color: var(--cyanCust);
   margin-top: 100px;
   font-family: nowBold;
 }
@@ -459,7 +463,7 @@ html {
 .testimonial-card-text h2 {
   font-size: 22px;
   line-height: 160%;
-  color: #30fbef;
+  color: var(--cyanCust);
   font-family: nowBold;
 }
 .testimonial-card-text h3 {
@@ -510,14 +514,14 @@ html {
   /* border: 0; */
 }
 .email-input input:focus {
-  border: 0.5px solid #30fbef;
+  border: 0.5px solid var(--cyanCust);
 }
 .email-input button {
   position: absolute;
   right: 0;
   width: 150px;
   height: 50px;
-  background: #282828;
+  background: var(--blackCust);
   box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
     -3px -3px 8px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -541,7 +545,7 @@ html {
 .subscribe-text h2 {
   font-size: 40px;
   line-height: 130%;
-  color: #30fbef;
+  color: var(--cyanCust);
   font-family: nowBold;
 }
 .subscribe-text p {
@@ -572,7 +576,7 @@ footer {
 .try-text h2 {
   font-size: 40px;
   line-height: 130%;
-  color: #30fbef;
+  color: var(--cyanCust);
   font-family: nowBold;
 }
 .try-text p {
@@ -587,7 +591,7 @@ footer {
 .button-1 {
   width: 190px;
   height: 60px;
-  background: #282828;
+  background: var(--blackCust);
   box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
     -3px -3px 8px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -599,12 +603,12 @@ footer {
   transition: 0.2s ease-in-out;
 }
 .button-1:hover {
-  color: #30fbef;
+  color: var(--cyanCust);
 }
 .button-2 {
   width: 210px;
   height: 60px;
-  background: #282828;
+  background: var(--blackCust);
   box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
     -3px -3px 8px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -617,7 +621,7 @@ footer {
   transition: 0.2s ease-in-out;
 }
 .button-2:hover {
-  color: #282828;
+  color: var(--blackCust);
   background: #9c69e2;
   font-family: nowBold;
 }
@@ -638,20 +642,20 @@ footer {
 .logo-name h2 {
   font-size: 26px;
   line-height: 160%;
-  color: #30fbef;
+  color: var(--cyanCust);
   margin-left: 9px;
   font-family: nowBold;
 }
 .col-1 p {
   font-size: 16px;
   line-height: 180%;
-  color: #30fbef;
+  color: var(--cyanCust);
   margin-bottom: 10px;
 }
 .col-2 h3 {
   font-size: 16px;
   line-height: 160%;
-  color: #30fbef;
+  color: var(--cyanCust);
   margin-top: 20px;
   cursor: pointer;
   margin-bottom: 30px;
@@ -659,7 +663,7 @@ footer {
 .col-2 h2 {
   font-size: 16px;
   line-height: 160%;
-  color: #30fbef;
+  color: var(--cyanCust);
   cursor: pointer;
   margin-bottom: 10px;
 }
@@ -670,7 +674,7 @@ footer {
 .col-4 h2 {
   font-size: 16px;
   line-height: 160%;
-  color: #30fbef;
+  color: var(--cyanCust);
   margin-left: 10px;
   margin-bottom: 30px;
   margin-top: 20px;
@@ -681,7 +685,7 @@ footer {
 .links div {
   width: 80px;
   height: 80px;
-  background: #282828;
+  background: var(--blackCust);
   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
   border-radius: 50px;
   display: flex;
@@ -703,12 +707,12 @@ footer {
 .copyright h2 {
   font-size: 12px;
   line-height: 180%;
-  color: #30fbef;
+  color: var(--cyanCust);
 }
 .copyright div {
   width: 60px;
   height: 60px;
-  background: #282828;
+  background: var(--blackCust);
   box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
     -3px -3px 8px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -737,7 +741,7 @@ footer {
 .line2,
 .line3 {
   width: 40px;
-  background-color: #30fbef;
+  background-color: var(--cyanCust);
   height: 4px;
   margin: 4px 2px;
   top: 10px;
