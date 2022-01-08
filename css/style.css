@@ -998,6 +998,9 @@ footer {
   }
 }
 @media only screen and (max-width: 940px) {
+  html {
+    overflow-x: clip;
+  }
   .left-nav {
     position: absolute;
     left: 15px;
