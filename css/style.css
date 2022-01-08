@@ -1020,8 +1020,13 @@ footer {
     font-size: 12px;
     margin-bottom: 10px;
   }
+  .text-part button {
+    width: 50%;
+    font-size: 15px;
+  }
   .landing-part1 img {
-    width: 80%;
+    margin-top: 20px;
+    width: 70%;
   }
   .landing-part-2-box,
   .landing-part-3-box,
@@ -1036,7 +1041,7 @@ footer {
     height: 500px;
   }
   .landing-part-2-box img {
-    scale: 50%;
+    width: 60%;
   }
   .text-part-2 h1 {
     font-size: 20px;
@@ -1069,7 +1074,7 @@ footer {
     width: 210px;
   }
   .card div img {
-    scale: 60%;
+    width: 60%;
   }
   .feature-card-text h2 {
     font-size: 15px;
@@ -1083,11 +1088,16 @@ footer {
   }
   .bottom-section {
     margin: 0;
-    scale: 60%;
     justify-content: space-between;
   }
   .arrows {
     margin: 0;
+  }
+  .arrows button img {
+    width: 60%;
+  }
+  .indicator div {
+    display: none;
   }
   .landing-part-4-box {
     height: 400px;
@@ -1109,8 +1119,8 @@ footer {
     font-size: 10px;
   }
   .text-part-4 button {
-    font-size: 18px;
-    scale: 45%;
+    font-size: 12px;
+    width: 45%;
   }
   .text-part-4 button:hover {
     scale: 55%;
@@ -1176,13 +1186,13 @@ footer {
     justify-content: flex-end;
     font-size: 18px;
     padding-right: 20px;
-    margin: 0;
+    margin: 10px 0 0 0;
     /* padding-left: 40px; */
   }
   .email-input button {
     width: 100px;
     position: static;
-    margin: 0;
+    margin: 10px 0 0 0;
   }
   .email-input button:hover {
     scale: 85%;
@@ -1203,7 +1213,9 @@ footer {
     font-size: 10px;
   }
   .buttons button {
-    scale: 50%;
+    font-size: 10px;
+    width: 100px;
+    height: 60px;
   }
   .footer-main {
     flex-direction: column;
@@ -1214,9 +1226,14 @@ footer {
   .logo-name {
     align-items: center;
     justify-content: center;
-    scale: 70%;
-    margin: 0;
+    margin: 0 0 20px 0;
     overflow: visible;
+  }
+  .logo-name img {
+    width: 30px;
+  }
+  .logo-name h2 {
+    font-size: 20px;
   }
   .col-1,
   .col-2,
@@ -1224,10 +1241,17 @@ footer {
   .col-4 {
     text-align: center;
   }
+
+  .links div img,
+  .copyright div img {
+    margin: 0;
+    width: 20px;
+  }
   .links div,
   .copyright div {
-    margin: 0;
-    scale: 50%;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
   }
   .col-1 p,
   .col-2 h3,
