@@ -72,3 +72,10 @@ dropdown.addEventListener("click", () => {
   navBar.classList.toggle("h-nav-resp");
   rightNav.classList.toggle("nav-items-resp");
 });
+
+function toTop() {
+  document.documentElement.scrollTo(0, 0);
+}
+function toDivById(id) {
+  id.scrollIntoView();
+}
